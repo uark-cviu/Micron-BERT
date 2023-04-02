@@ -9,7 +9,7 @@ Micro-expression recognition is one of the most challenging topics in affective 
 The full source code will be released soon.
 
 ## Testing
-We provide the pretrained Micron-BERT model [here](#). To finetune the Micron-BERT on your micro-expression database, please refer to [micron_bert.py](micron_bert.py)
+We provide the pretrained Micron-BERT model [here](https://uark-my.sharepoint.com/:u:/g/personal/xnguyen_uark_edu/EQHhC8oKiUhElDZ3dfXueeABSefj3MetYv8YOoDljX_Hbg?e=6nwCxv). To finetune the Micron-BERT on your micro-expression database, please refer to [micron_bert.py](micron_bert.py)
 
 ## Acknowledgement
 
