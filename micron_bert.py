@@ -69,7 +69,7 @@ def get_model(checkpoint):
 
 checkpoint = 'checkpoints/CASME2-is224-p8-b16-ep200.pth'
 your_image_path = 'image.jpg'
-model = get_model(checkpoint).cuda()
+model = get_model(checkpoint)[0].cuda()
 model.eval()
 
 # To extract features
@@ -77,5 +77,5 @@ image = load_image(your_image_path)
 image_tensor = image_to_tensor(image)
 
 with torch.no_grad():
-    features = model.extract_features(image)
+    features = model.extract_features(image_tensor)
     # Use this features for finetunning.
